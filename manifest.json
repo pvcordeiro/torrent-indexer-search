@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Torrent Indexer Searcher",
+    "name": "Torrent Super Search",
     "version": "1.0",
-    "description": "Simultaneously search across all your preferred torrent indexers",
+    "description": "Simultaneously search across all the most popular torrent websites",
     "action": {
         "default_popup": "popup.html",
         "default_icon": "./images/pirate-hat.png"

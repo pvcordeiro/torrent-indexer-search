@@ -1,0 +1,27 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --container: hsl(0, 100%, 19%);
+}
+
+.mainContainer {
+    background-color: var(--container);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+}
+
+.title {
+}
+
+.searchLabel {
+}

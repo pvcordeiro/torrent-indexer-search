@@ -3,23 +3,30 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Torrent Search Indexer</title>
+        <title>Torrent Super Search</title>
         <link rel="stylesheet" href="popup.css" />
+        <link
+            rel="icon"
+            href="../images/pirate-hat.png"
+            type="image/x-icon"
+            sizes="16x16"
+        />
     </head>
     <body>
         <main>
             <div class="mainContainer">
                 <h1 class="title">
-                    Simultaneously search across all your preferred torrent indexers
+                    Simultaneously search across all the most popular torrent
+                    websites
                 </h1>
                 <label for="searchBox" class="searchLabel"
-                    >Type the url for the indexers:</label
+                    >What do you want to search for?</label
                 >
                 <input
                     type="text"
                     class="searchBox"
                     id="searchBox"
-                    placeholder="torrentgalaxy.to, 1337x.to, etc"
+                    placeholder="Music, Movies, Games, etc"
                 />
                 <button class="searchButton" onclick="searchTorrents()">
                     Search

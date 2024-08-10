@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Torrent Search Indexer</title>
+        <link rel="stylesheet" href="popup.css" />
+    </head>
+    <body>
+        <main>
+            <div class="mainContainer">
+                <h1 class="title">
+                    Search in all the torrent indexers that you want at the
+                    same time
+                </h1>
+                <label for="searchBox" class="searchLabel"
+                    >Type the url for the indexers that you want to
+                    search on:</label
+                >
+                <input
+                    type="text"
+                    class="searchBox"
+                    id="searchBox"
+                    placeholder="torrentgalaxy.to, 1337x.to, etc"
+                />
+                <button class="searchButton" onclick="searchTorrents()">
+                    Search
+                </button>
+            </div>
+        </main>
+        <script src="popup.js"></script>
+    </body>
+</html>

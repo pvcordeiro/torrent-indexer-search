@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Torrent Indexer Searcher",
     "version": "1.0",
-    "description": "Search in all the torrent indexers that you want at the same time",
+    "description": "Simultaneously search across all your preferred torrent indexers",
     "action": {
         "default_popup": "popup.html",
         "default_icon": "./images/pirate-hat.png"
